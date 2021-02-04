@@ -1,6 +1,28 @@
 # Monte Hall Problem
 **A toy program to test the results of the Monte Hall Problem in probability and statistics**
 
+## Program
+Since this is a toy program that just illustrates the probability outcomes of the problem
+there are no special arguments or commands.
+
+The program will run, replicating the steps of the Monte Hall Problem as described below
+at the expense of efficiency in order to replicate the problem with fidelity.
+
+The only parameter to tune inside the MonteHall.py code is the ```ROUNDS``` constant that
+is initially set to 1000. This dictates the number of times the game is repeated. Like a
+coin flip, this chances can deviate from the expected probability over the short term, but
+with enough trials will always tend toward the actual probability.
+
+### To Clone:
+```git clone https://github.com/freethinkingzen/MonteHallProblem.git```
+
+### To Run:
+```python MonteHall.py```
+
+or
+
+```python3 MonteHall.py```
+
 ## Background
 The problem plays on the *Let's Make a Deal* TV show and gets its name from the original host
 Monte Hall.
@@ -40,6 +62,7 @@ However, **YOUR CHANCES ACTUALLY INCREASE WHEN YOU SWITCH TO A NEW DOOR!**
 
 -**Keeping the first pick locks the contestant into a 1/3 probability of getting a car instead
 of a ZONK.**
+
 -**Switching is gives the contestant the combined probabilities of Monte's door and the other door**
 
 
@@ -50,3 +73,16 @@ of a ZONK.**
 | Goat   | Goat   |**CAR**| **CAR**   | Goat        |
 | Goat   | **CAR**| Goat  | Goat      | **CAR**     |
 | **CAR**| Goat   | Goat  | Goat      | **CAR**     |
+
+
+## Results
+ 
+- **Keep Original Door: 33%**
+
+- **Switch Doors: 66%**
+
+While these probabilities can underperform or overperform, these are the overall probabilities
+and will more closely match these numbers with higher numbers of ROUNDS (Law of Large Numbers)
+
+
+T
