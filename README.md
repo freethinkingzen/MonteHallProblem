@@ -2,7 +2,7 @@
 **A toy program to test the results of the Monte Hall Problem in probability and statistics**
 
 ## Program
-The program will run, replicating the steps of the Monte Hall Problem as described below
+The program will run, going through the steps of the Monte Hall Problem as described below
 at the expense of efficiency in order to replicate the problem with fidelity.
 
 The only parameter to tune inside the MonteHall.py code is the ```ROUNDS``` constant that
