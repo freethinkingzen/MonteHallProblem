@@ -24,7 +24,7 @@ Often, trying to argue any different will be met with *LOTS* of resistance becau
 rediculous to assert that keeping a door or switching would have any meaningful benefit.
 However, **YOUR CHANCES ACTUALLY INCREASE WHEN YOU SWITCH TO A NEW DOOR!**
 
-### Explanation 1
+### Explanation 1: Combining Probabilities
 **Player Picks Door 1**
 | Door 1 | Door 2 | Door 3 |
 |--------|--------|--------|
@@ -32,16 +32,18 @@ However, **YOUR CHANCES ACTUALLY INCREASE WHEN YOU SWITCH TO A NEW DOOR!**
 | Closed | Closed | Closed |
 | 1/3    | 1/3    | 1/3    |
 
-| Door 1 | Door 2 | Door 3 |
-|--------|--------|--------|
-|**ZONK**|**CAR** |**ZONK**|
-| Closed | Closed | Open   |
-| 1/3    | 1/3    | 1/3    |
+| Door 1 | Door 2 \| Door 3 |
+|:------:|:----------------:|
+|**ZONK**|**CAR** \| **ZONK**|
+| Closed | Closed \| Open   |
+| 1/3    |       2/3        |
 
-__________      ____________________
+-**Keeping the first pick locks the contestant into a 1/3 probability of getting a car instead
+of a ZONK.**
+-**Switching is gives the contestant the combined probabilities of Monte's door and the other door**
 
 
-## Table
+### Explanation 2: Truth Table
 **Player Picks Door 3**
 | Door 1 | Door 2 | Door 3| Keep Door | Switch Door |
 |--------|--------|-------|-----------|-------------|
